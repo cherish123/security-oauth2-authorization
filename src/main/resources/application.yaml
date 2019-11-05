@@ -1,0 +1,13 @@
+server:
+  port: 18084
+
+spring:
+  application:
+    name: oauth2-server   # \u5E94\u7528\u540D\u79F0
+
+  thymeleaf:
+    prefix: classpath:/templates/
+
+logging:
+  level:
+    org.springframework.security: DEBUG
